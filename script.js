@@ -2,11 +2,11 @@
 function comprarEbook() {
     // Aqui você pode integrar com sua plataforma de pagamento preferida
     // Por exemplo: PagSeguro, Mercado Pago, PayPal, etc.
-    
-    alert('Redirecionando para o pagamento...\n\nEm breve você receberá o eBook "Desacelere" em seu email!');
-    
+    window.open('https://pay.kiwify.com.br/zdXqjAg', '_blank');
+   
+    //alert('Redirecionando para o pagamento...\n\nEm breve você receberá o eBook "Desacelere" em seu email!');
     // Exemplo de redirecionamento (substitua pela sua URL de pagamento)
-    // window.open('https://sua-plataforma-de-pagamento.com/checkout', '_blank');
+     
 }
 
 // Smooth scroll para links internos
